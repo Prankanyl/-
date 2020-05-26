@@ -22,3 +22,5 @@ C:\Users\Паша\Desktop\КПиЯП\CourseWork-CarSales\CarSales\CarSales\obj\D
 C:\Users\Паша\Desktop\КПиЯП\CourseWork-CarSales\CarSales\CarSales\bin\Debug\CarSales.exe.config
 C:\Users\Паша\Desktop\КПиЯП\CourseWork-CarSales\CarSales\CarSales\bin\Debug\CarSales.exe
 C:\Users\Паша\Desktop\КПиЯП\CourseWork-CarSales\CarSales\CarSales\bin\Debug\CarSales.pdb
+C:\Users\Паша\Desktop\КПиЯП\CourseWork-CarSales\CarSales\CarSales\obj\Debug\CarSales.Description.resources
+C:\Users\Паша\Desktop\КПиЯП\CourseWork-CarSales\CarSales\CarSales\obj\Debug\CarSales.Kabinet.resources

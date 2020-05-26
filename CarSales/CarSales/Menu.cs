@@ -28,6 +28,9 @@ namespace CarSales
             Registr registr = new Registr();
             registr.label4.Visible = true;
             registr.textBox4.Visible = true;
+            registr.label5.Visible = true;
+            registr.textBox5.Visible = true;
+            registr.label6.Text = "Регистрация";
             registr.button1.Text = "Регистрация";
             activeForm = Form.ActiveForm;
             HelpFunctions.show_form(activeForm, registr, "Регистрация");
@@ -38,6 +41,9 @@ namespace CarSales
             Registr registr = new Registr();
             registr.label4.Visible = false;
             registr.textBox4.Visible = false;
+            registr.label5.Visible = false;
+            registr.textBox5.Visible = false;
+            registr.label6.Text = "Вход";
             registr.button1.Text = "Вход";
             activeForm = Form.ActiveForm;
             HelpFunctions.show_form(activeForm, registr, "Вход");

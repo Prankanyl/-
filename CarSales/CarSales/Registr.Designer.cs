@@ -41,6 +41,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // panel1
@@ -163,6 +164,18 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "Телефон";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(0)))), ((int)(((byte)(3)))));
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.ForeColor = System.Drawing.SystemColors.Control;
+            this.label6.Location = new System.Drawing.Point(16, 9);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(196, 73);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "label6";
+            // 
             // Registr
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -170,6 +183,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1364, 769);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button1);
@@ -204,5 +218,6 @@
         public System.Windows.Forms.Button button1;
         public System.Windows.Forms.TextBox textBox5;
         public System.Windows.Forms.Label label5;
+        public System.Windows.Forms.Label label6;
     }
 }

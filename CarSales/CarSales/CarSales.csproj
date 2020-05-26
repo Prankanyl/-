@@ -46,8 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Description.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Description.Designer.cs">
+      <DependentUpon>Description.cs</DependentUpon>
+    </Compile>
     <Compile Include="HelpClass.cs" />
     <Compile Include="HelpFunctions.cs" />
+    <Compile Include="Kabinet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kabinet.Designer.cs">
+      <DependentUpon>Kabinet.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +80,12 @@
     <Compile Include="Registr.Designer.cs">
       <DependentUpon>Registr.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Description.resx">
+      <DependentUpon>Description.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kabinet.resx">
+      <DependentUpon>Kabinet.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Katalog.resx">
       <DependentUpon>Katalog.cs</DependentUpon>
     </EmbeddedResource>

@@ -12,6 +12,7 @@ namespace CarSales
 {
     public partial class Registr : Form
     {
+        public Form activeForm;
         public Registr()
         { 
             InitializeComponent();
@@ -19,7 +20,15 @@ namespace CarSales
 
         private void panel1_Click(object sender, EventArgs e)
         {
-            
+            activeForm = Form.ActiveForm;
+            Menu menu = new Menu();
+            HelpFunctions.show_form(activeForm, menu, "CarSales");
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
+ 

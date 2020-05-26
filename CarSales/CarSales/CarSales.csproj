@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HelpClass.cs" />
+    <Compile Include="HelpFunctions.cs" />
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>

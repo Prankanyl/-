@@ -12,6 +12,7 @@ namespace CarSales
 {
     public partial class Katalog : Form
     {
+        public Form activeForm;
         public Katalog()
         {
             InitializeComponent();
@@ -19,10 +20,9 @@ namespace CarSales
 
         private void panel1_Click(object sender, EventArgs e)
         {
+            activeForm = Form.ActiveForm;
             Menu menu = new Menu();
-            Hide();
-            menu.ShowDialog();
-            Close();
+            HelpFunctions.show_form(activeForm, menu, "CarSales");
         }
 
         private void Katalog_Load(object sender, EventArgs e)

@@ -12,6 +12,7 @@ namespace CarSales
 {
     public partial class Menu : Form
     {
+        public Form activeForm;
         public Menu()
         {
             InitializeComponent();
@@ -19,32 +20,32 @@ namespace CarSales
         private void button1_Click(object sender, EventArgs e)
         {
             Katalog katalog = new Katalog();
-            show_form(katalog);
+            activeForm = Form.ActiveForm;
+            HelpFunctions.show_form(activeForm, katalog, "Каталог");
         }
         private void button2_Click(object sender, EventArgs e)
         {
             Registr registr = new Registr();
-            registr.Text = "Регистрация";
-            show_form(registr);
+            registr.label4.Visible = true;
+            registr.textBox4.Visible = true;
+            registr.button1.Text = "Регистрация";
+            activeForm = Form.ActiveForm;
+            HelpFunctions.show_form(activeForm, registr, "Регистрация");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Registr registr = new Registr();
-            registr.Text = "Вход";
-            show_form(registr);
+            registr.label4.Visible = false;
+            registr.textBox4.Visible = false;
+            registr.button1.Text = "Вход";
+            activeForm = Form.ActiveForm;
+            HelpFunctions.show_form(activeForm, registr, "Вход");
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void show_form(Form form)
-        {
-            Hide();
-            form.ShowDialog();
-            Close();
         }
     }
 }

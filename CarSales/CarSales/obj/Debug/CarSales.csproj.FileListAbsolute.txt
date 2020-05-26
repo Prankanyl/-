@@ -10,3 +10,15 @@ C:\Users\Паша\Desktop\КПиЯП\КПиЯП Курсовая Работа\Ca
 C:\Users\Паша\Desktop\КПиЯП\КПиЯП Курсовая Работа\CarSales\CarSales\obj\Debug\CarSales.Menu.resources
 C:\Users\Паша\Desktop\КПиЯП\КПиЯП Курсовая Работа\CarSales\CarSales\obj\Debug\CarSales.Katalog.resources
 C:\Users\Паша\Desktop\КПиЯП\КПиЯП Курсовая Работа\CarSales\CarSales\obj\Debug\CarSales.Registr.resources
+C:\Users\Паша\Desktop\КПиЯП\CourseWork-CarSales\CarSales\CarSales\obj\Debug\CarSales.csprojAssemblyReference.cache
+C:\Users\Паша\Desktop\КПиЯП\CourseWork-CarSales\CarSales\CarSales\obj\Debug\CarSales.Katalog.resources
+C:\Users\Паша\Desktop\КПиЯП\CourseWork-CarSales\CarSales\CarSales\obj\Debug\CarSales.Menu.resources
+C:\Users\Паша\Desktop\КПиЯП\CourseWork-CarSales\CarSales\CarSales\obj\Debug\CarSales.Properties.Resources.resources
+C:\Users\Паша\Desktop\КПиЯП\CourseWork-CarSales\CarSales\CarSales\obj\Debug\CarSales.Registr.resources
+C:\Users\Паша\Desktop\КПиЯП\CourseWork-CarSales\CarSales\CarSales\obj\Debug\CarSales.csproj.GenerateResource.cache
+C:\Users\Паша\Desktop\КПиЯП\CourseWork-CarSales\CarSales\CarSales\obj\Debug\CarSales.csproj.CoreCompileInputs.cache
+C:\Users\Паша\Desktop\КПиЯП\CourseWork-CarSales\CarSales\CarSales\obj\Debug\CarSales.exe
+C:\Users\Паша\Desktop\КПиЯП\CourseWork-CarSales\CarSales\CarSales\obj\Debug\CarSales.pdb
+C:\Users\Паша\Desktop\КПиЯП\CourseWork-CarSales\CarSales\CarSales\bin\Debug\CarSales.exe.config
+C:\Users\Паша\Desktop\КПиЯП\CourseWork-CarSales\CarSales\CarSales\bin\Debug\CarSales.exe
+C:\Users\Паша\Desktop\КПиЯП\CourseWork-CarSales\CarSales\CarSales\bin\Debug\CarSales.pdb

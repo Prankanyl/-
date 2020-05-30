@@ -343,6 +343,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Description";
             this.Text = "Description";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Description_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

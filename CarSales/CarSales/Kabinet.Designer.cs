@@ -102,6 +102,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Kabinet";
             this.Text = "Kabinet";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Kabinet_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

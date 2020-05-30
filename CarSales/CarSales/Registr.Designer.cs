@@ -199,6 +199,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Registr";
             this.Text = "Registr";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Registr_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

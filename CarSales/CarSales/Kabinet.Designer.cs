@@ -28,12 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Kabinet));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.bDDataSet3 = new CarSales.BDDataSet3();
+            this.avtoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.avtoTableAdapter = new CarSales.BDDataSet3TableAdapters.avtoTableAdapter();
+            this.numberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.modelDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.markaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.releaseDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.costDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.privodDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bodyTypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.transmissionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fuelTypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.descriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.imageDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bDDataSet3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.avtoBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -87,6 +106,108 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "Добро пожаловать";
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.numberDataGridViewTextBoxColumn,
+            this.modelDataGridViewTextBoxColumn,
+            this.markaDataGridViewTextBoxColumn,
+            this.releaseDataGridViewTextBoxColumn,
+            this.costDataGridViewTextBoxColumn,
+            this.privodDataGridViewTextBoxColumn,
+            this.bodyTypeDataGridViewTextBoxColumn,
+            this.transmissionDataGridViewTextBoxColumn,
+            this.fuelTypeDataGridViewTextBoxColumn,
+            this.descriptionDataGridViewTextBoxColumn,
+            this.imageDataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.avtoBindingSource;
+            this.dataGridView1.Location = new System.Drawing.Point(292, 136);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(1073, 494);
+            this.dataGridView1.TabIndex = 5;
+            // 
+            // bDDataSet3
+            // 
+            this.bDDataSet3.DataSetName = "BDDataSet3";
+            this.bDDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // avtoBindingSource
+            // 
+            this.avtoBindingSource.DataMember = "avto";
+            this.avtoBindingSource.DataSource = this.bDDataSet3;
+            // 
+            // avtoTableAdapter
+            // 
+            this.avtoTableAdapter.ClearBeforeFill = true;
+            // 
+            // numberDataGridViewTextBoxColumn
+            // 
+            this.numberDataGridViewTextBoxColumn.DataPropertyName = "Number";
+            this.numberDataGridViewTextBoxColumn.HeaderText = "Number";
+            this.numberDataGridViewTextBoxColumn.Name = "numberDataGridViewTextBoxColumn";
+            // 
+            // modelDataGridViewTextBoxColumn
+            // 
+            this.modelDataGridViewTextBoxColumn.DataPropertyName = "model";
+            this.modelDataGridViewTextBoxColumn.HeaderText = "model";
+            this.modelDataGridViewTextBoxColumn.Name = "modelDataGridViewTextBoxColumn";
+            // 
+            // markaDataGridViewTextBoxColumn
+            // 
+            this.markaDataGridViewTextBoxColumn.DataPropertyName = "marka";
+            this.markaDataGridViewTextBoxColumn.HeaderText = "marka";
+            this.markaDataGridViewTextBoxColumn.Name = "markaDataGridViewTextBoxColumn";
+            // 
+            // releaseDataGridViewTextBoxColumn
+            // 
+            this.releaseDataGridViewTextBoxColumn.DataPropertyName = "Release";
+            this.releaseDataGridViewTextBoxColumn.HeaderText = "Release";
+            this.releaseDataGridViewTextBoxColumn.Name = "releaseDataGridViewTextBoxColumn";
+            // 
+            // costDataGridViewTextBoxColumn
+            // 
+            this.costDataGridViewTextBoxColumn.DataPropertyName = "Cost";
+            this.costDataGridViewTextBoxColumn.HeaderText = "Cost";
+            this.costDataGridViewTextBoxColumn.Name = "costDataGridViewTextBoxColumn";
+            // 
+            // privodDataGridViewTextBoxColumn
+            // 
+            this.privodDataGridViewTextBoxColumn.DataPropertyName = "privod";
+            this.privodDataGridViewTextBoxColumn.HeaderText = "privod";
+            this.privodDataGridViewTextBoxColumn.Name = "privodDataGridViewTextBoxColumn";
+            // 
+            // bodyTypeDataGridViewTextBoxColumn
+            // 
+            this.bodyTypeDataGridViewTextBoxColumn.DataPropertyName = "BodyType";
+            this.bodyTypeDataGridViewTextBoxColumn.HeaderText = "BodyType";
+            this.bodyTypeDataGridViewTextBoxColumn.Name = "bodyTypeDataGridViewTextBoxColumn";
+            // 
+            // transmissionDataGridViewTextBoxColumn
+            // 
+            this.transmissionDataGridViewTextBoxColumn.DataPropertyName = "Transmission";
+            this.transmissionDataGridViewTextBoxColumn.HeaderText = "Transmission";
+            this.transmissionDataGridViewTextBoxColumn.Name = "transmissionDataGridViewTextBoxColumn";
+            // 
+            // fuelTypeDataGridViewTextBoxColumn
+            // 
+            this.fuelTypeDataGridViewTextBoxColumn.DataPropertyName = "FuelType";
+            this.fuelTypeDataGridViewTextBoxColumn.HeaderText = "FuelType";
+            this.fuelTypeDataGridViewTextBoxColumn.Name = "fuelTypeDataGridViewTextBoxColumn";
+            // 
+            // descriptionDataGridViewTextBoxColumn
+            // 
+            this.descriptionDataGridViewTextBoxColumn.DataPropertyName = "Description";
+            this.descriptionDataGridViewTextBoxColumn.HeaderText = "Description";
+            this.descriptionDataGridViewTextBoxColumn.Name = "descriptionDataGridViewTextBoxColumn";
+            // 
+            // imageDataGridViewTextBoxColumn
+            // 
+            this.imageDataGridViewTextBoxColumn.DataPropertyName = "Image";
+            this.imageDataGridViewTextBoxColumn.HeaderText = "Image";
+            this.imageDataGridViewTextBoxColumn.Name = "imageDataGridViewTextBoxColumn";
+            // 
             // Kabinet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -94,6 +215,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1364, 769);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button3);
@@ -103,6 +225,10 @@
             this.Name = "Kabinet";
             this.Text = "Kabinet";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Kabinet_FormClosing);
+            this.Load += new System.EventHandler(this.Kabinet_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bDDataSet3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.avtoBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -115,5 +241,20 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private BDDataSet3 bDDataSet3;
+        private System.Windows.Forms.BindingSource avtoBindingSource;
+        private BDDataSet3TableAdapters.avtoTableAdapter avtoTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn numberDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn modelDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn markaDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn releaseDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn costDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn privodDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn bodyTypeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn transmissionDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fuelTypeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn descriptionDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn imageDataGridViewTextBoxColumn;
     }
 }

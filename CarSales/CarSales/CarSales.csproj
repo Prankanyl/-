@@ -46,6 +46,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BDDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BDDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BDDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BDDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BDDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BDDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BDDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BDDataSet3.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Description.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +124,50 @@
     <EmbeddedResource Include="Registr.resx">
       <DependentUpon>Registr.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="BDDataSet.xsc">
+      <DependentUpon>BDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BDDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BDDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BDDataSet.xss">
+      <DependentUpon>BDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BDDataSet1.xsc">
+      <DependentUpon>BDDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BDDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BDDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BDDataSet1.xss">
+      <DependentUpon>BDDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BDDataSet2.xsc">
+      <DependentUpon>BDDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="BDDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BDDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BDDataSet2.xss">
+      <DependentUpon>BDDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="BDDataSet3.xsc">
+      <DependentUpon>BDDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="BDDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BDDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BDDataSet3.xss">
+      <DependentUpon>BDDataSet3.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -117,5 +181,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="BD.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

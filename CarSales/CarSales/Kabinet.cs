@@ -33,5 +33,12 @@ namespace CarSales
         {
             myConnection.Close();
         }
+
+        private void Kabinet_Load(object sender, EventArgs e)
+        {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "bDDataSet3.avto". При необходимости она может быть перемещена или удалена.
+            this.avtoTableAdapter.Fill(this.bDDataSet3.avto);
+
+        }
     }
 }
